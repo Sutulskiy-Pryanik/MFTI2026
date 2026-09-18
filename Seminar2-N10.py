@@ -1,4 +1,4 @@
-with open('input.txt', 'r') as f:
+with open('input.txt', 'r', encoding='UTF-8') as f:
     text = f.read()
 print(text)
 text1 = ''
